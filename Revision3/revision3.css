@@ -95,7 +95,7 @@ table, thead, td, tr {
     width: 90%;
     height: 100%;
     min-width: 400px;
-    max-width: 1600px;
+    max-width: 1200px;
     min-height: 300px;
     /*box-sizing: border-box;*/
     margin: auto;
@@ -105,7 +105,7 @@ table, thead, td, tr {
     display: inline;
     width: 90%;
     height: 100%;
-    max-width: 800px;
+    max-width: 600px;
     min-width: 400px;
     min-height: 300px;
     /*box-sizing: border-box;*/
@@ -117,7 +117,7 @@ table, thead, td, tr {
     width: 90%;
     height: 100%;
     min-width: 200px;
-    max-width: 800px;
+    max-width: 600px;
     min-height: 300px;
     max-height: 300px;
     /*box-sizing: border-box;*/

@@ -190,7 +190,7 @@ function setup(){
     _vis.height = _vis.svgContainer.node().getBoundingClientRect().height != undefined ?
         _vis.svgContainer.node().getBoundingClientRect().height :
         _vis.height;
-    _vis.width= 1600;
+    _vis.width= 1200;
 
 
     loadData("NBA_2018-19_Data - Worksheet.csv", _vis, 40);
@@ -206,7 +206,7 @@ function setup(){
         _vis2.svgContainer.node().getBoundingClientRect().height :
         _vis2.height;
 
-    _vis2.width = 1600;
+    _vis2.width = 1200;
 
 
 
@@ -216,7 +216,7 @@ function setup(){
 
     _vis3 = new Scatterplot("Salary", "Assists", "red");
     _vis3.svgContainer = d3.select("#vis3");
-    _vis3.width = 1600;
+    _vis3.width = 1200;
     _vis3.height = _vis3.svgContainer.node().getBoundingClientRect().height != undefined ?
         _vis3.svgContainer.node().getBoundingClientRect().height :
         _vis3.height;
