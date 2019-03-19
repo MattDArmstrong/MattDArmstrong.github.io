@@ -1,0 +1,153 @@
+/* importing fonts from Google Font API */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,700');
+
+html {
+    background: beige;
+    min-width: 1280px;
+    min-height: 720px;
+    overflow: auto;
+
+    font-family: "Arial", sans-serif;
+    font-weight: 300;
+    color: Black;
+    letter-spacing: 0.1em;
+}
+
+body {
+    padding: 20px;
+}
+
+h1{
+    font-family: "Arial", sans-serif;
+    font-size: 3em;
+
+    color: black;
+    letter-spacing: normal;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: normal;
+
+}
+
+/* styling an element through its ID */
+div#div_page_desc {
+    margin: 10px;
+}
+
+div#div_data_desc {
+    background: beige;
+    box-sizing: border-box;
+    padding: 10px 20px;
+
+    color: black;
+}
+
+div#div_visuals {
+    background: beige;
+    background-clip: content-box;
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+div#div_buttons {
+    padding: 20px;
+}
+
+button {
+    background: beige;
+    border: none;
+    height: 30px;
+    padding: 0px 10px;
+
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    background: darkturquoise;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+table, thead, td, tr {
+    border: 1px solid black !important;
+}
+
+
+#vis {
+    background: beige;
+    display: inline;
+    width: 90%;
+    height: 100%;
+    min-width: 400px;
+    max-width: 1600px;
+    min-height: 300px;
+    /*box-sizing: border-box;*/
+    margin: auto;
+}
+#vis2 {
+    background: beige;
+    display: inline;
+    width: 90%;
+    height: 100%;
+    min-width: 400px;
+    max-width: 1600px;
+    min-height: 300px;
+    /*box-sizing: border-box;*/
+    margin: auto;
+}
+#vis3 {
+    background: beige;
+    display: inline;
+    width: 90%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 300px;
+    max-height: 300px;
+    /*box-sizing: border-box;*/
+    margin: auto;
+}
+
+.domain,
+.tick,
+.tick path,
+.tick line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.domain text,
+.tick,
+.tick text {
+    font-family: "Sarabun", sans-serif;
+    font-size: 1em;
+}
+
+.brushed {
+
+    fill: yellow !important;
+    stroke: #8e1b54;
+    opacity: 1.0;
+}
+
+.non_brushed {
+    fill: #404040;
+    opacity: 0.4;
+}
